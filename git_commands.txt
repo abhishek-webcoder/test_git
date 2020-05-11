@@ -5,7 +5,9 @@
 (5) git add git_commands.txt || git add --all || git add .
 (6) git commit --> press "i" --> press Esc --> type ":x" --> press enter (long way of commit)
 (7) git commit -m "commit message" (long way of commit)
-(8) 
+(8) git log (to see all the commits with full details)
+(9) git log --oneline (to see all the commits with short details)
+hello
 
 
 
