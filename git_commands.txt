@@ -1,8 +1,11 @@
- git init
-git config --global user.name "abhishek"
-git config --global user.email "abhishek.roy@massoftind.com"
-git status
-git add git_commands.txt / git add --all / git --add .
+(1) git init (to initialize the .git in the folder)
+(2) git config --global user.name "abhishek" (to set up the username globally)
+(3) git config --global user.email "abhishek.roy@massoftind.com" (to set up the username globally)
+(4) git status (to check the status)
+(5) git add git_commands.txt || git add --all || git add .
+(6) git commit --> press "i" --> press Esc --> type ":x" --> press enter (long way of commit)
+(7) git commit -m "commit message" (long way of commit)
+(8) 
 
 
 
