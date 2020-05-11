@@ -2,6 +2,9 @@
 git config --global user.name "abhishek"
 git config --global user.email "abhishek.roy@massoftind.com"
 git status
+git add git_commands.txt / git add --all / git --add .
+
+
 
 
 
