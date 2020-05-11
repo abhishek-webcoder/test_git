@@ -1,0 +1,8 @@
+ git init
+git config --global user.name "abhishek"
+git config --global user.email "abhishek.roy@massoftind.com"
+git status
+
+
+
+
