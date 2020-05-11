@@ -7,10 +7,10 @@
 (7) git commit -m "commit message" (long way of commit)
 (8) git log (to see all the commits with full details)
 (9) git log --oneline (to see all the commits with short details)
-hello
-
-
-
-
-
-
+(10) git commit checkout "previous log number without cotation" (to go back to the previous stage)
+(11) git checkout master (to  go into the master branch)
+(12) git diff (to see the differences with previous commit)
+(13) git diff "first serial no without cotation" second serial no without cotation" (to see the diff between two commits)
+(14) git diff --staged (to see the changes after has been staged)
+(15) git rm "file name without cotation" (to delete the file permanently)
+(16) git reset HEAD  "file name without cotation" (to unstage the file permanently)
