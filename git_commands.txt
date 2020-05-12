@@ -1,16 +1,94 @@
 (1) git init (to initialize the .git in the folder)
+
 (2) git config --global user.name "abhishek" (to set up the username globally)
-(3) git config --global user.email "abhishek.roy@massoftind.com" (to set up the username globally)
+
+(3) git config --global user.email "abhishek.roy@massoftind.com" (to set up the email globally)
+
 (4) git status (to check the status)
+
 (5) git add git_commands.txt || git add --all || git add .
+
 (6) git commit --> press "i" --> press Esc --> type ":x" --> press enter (long way of commit)
-(7) git commit -m "commit message" (long way of commit)
+
+(7) git commit -m "commit message" (short way of commit)
+
 (8) git log (to see all the commits with full details)
+
 (9) git log --oneline (to see all the commits with short details)
+
 (10) git commit checkout "previous log number without cotation" (to go back to the previous stage)
+
 (11) git checkout master (to  go into the master branch)
+
 (12) git diff (to see the differences with previous commit)
+
 (13) git diff "first serial no without cotation" second serial no without cotation" (to see the diff between two commits)
+
 (14) git diff --staged (to see the changes after has been staged)
+
 (15) git rm "file name without cotation" (to delete the file permanently)
+
 (16) git reset HEAD  "file name without cotation" (to unstage the file permanently)
+
+       In github.com
+
+(17) git remote add origin https://github.com/abhishek-webcoder/test_git
+
+(18) git remote rm origin (to remove if wrongfully added)
+
+(19) git push -u origin master
+
+(20) git push -u origin master --force (to force the push in that branch)
+
+(21) git clone "the url without cotation" (to clone a project in local repository)
+
+(22) git clone "the url without cotation" new_name (to clone a project in local repository with my new name)
+
+(23) git fetch (to bring the changes from remote to local repository)
+
+(24) git pull (to bring the changes from remote to working directory)
+
+(25) git branch branch_name (to create a new branch)
+
+(26) git checkout branch_name (to go to that particular branch after commiting all the changes in present branch)
+
+(27) git checkout -b branch_name (to directly go to that particular branch after creating)
+
+(28) git branch (to see the list of all branches)
+
+(29) git merge branch_name (merge the content of "branch_name"  this branch with present branch)
+
+(30) git branch -D branch_name (to delete a particular branch)
+
+(31) git stash (to remove and save a code temporarily) 
+
+(32) git stash pop (to recover and see the stashed code in that file)
+
+(33) git stash apply (to recover and see the stashed code in that file)
+
+(34) git stash list (to see the list of stashed code in that file)
+
+(35) git stash pop "stash number without cotation"(to see the exact stashed code in that file)
+
+(36) git clean -f (to delete all the untracked files)
+
+(37) touch .gitignore (to create the git ignore file in the folder)
+
+
+
+
+Git SSH key generation and linking with github account link (for windows):
+
+https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+git remote set-url origin git@github.com:abhishek-webcoder/test_git.git (to set ssh url after first time pushed with username and password)
+
+
+
+
+
+
+
+
+
+
